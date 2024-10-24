@@ -1,0 +1,46 @@
+.Welcome{
+    background-color: rgb(255, 47, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+
+.EvanstonPicture{
+    width: 500px;
+    height: auto;
+    display: flex;
+}
+
+.EvanstonPicture:hover{
+    opacity: 0.75;
+}
+
+.Explanation{
+    text-align: left;
+}
+
+
+
+
+nav{
+    background-color: white;
+    overflow:hidden;
+}
+
+nav a {
+    float: left;
+      display:block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: None;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    background-color:gray;
+    cursor: crosshair;
+}
