@@ -1,4 +1,4 @@
-.Welcome{
+.Weapon-Title{
     background-color: rgb(255, 47, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -22,25 +22,83 @@ body{
     text-align: left;
 }
 
-
-
-
 nav{
     background-color: white;
-    overflow:hidden;
+    display: flex;
+    justify-content: center;
 }
 
 nav a {
     float: left;
-      display:block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: None;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: None;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a:hover{
     background-color:gray;
     cursor: crosshair;
+}
+
+
+.Welcome{
+   border: 5px solid black;
+   padding: 10px;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   border-radius: 20px;
+   font-size: larger;
+   text-wrap: wrap;
+   
+
+}
+
+.Name{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+    text-wrap: wrap;
+}
+
+
+.Why{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.Why-1{
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 50%;
+    text-wrap: wrap;
+    overflow: scroll;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+    }
 }
